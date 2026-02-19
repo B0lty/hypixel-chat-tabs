@@ -47,7 +47,7 @@ dependencies {
     modImplementation "me.shedaniel.cloth:cloth-config-fabric:11.1.118"
 
     // Mod Menu
-    modImplementation "com.terraformersmc:modmenu:10.0.0"
+    modImplementation "com.terraformersmc:modmenu:16.0.0"
 }
 
 processResources {

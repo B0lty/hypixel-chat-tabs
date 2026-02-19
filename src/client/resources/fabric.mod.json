@@ -1,38 +1,21 @@
 {
-	"schemaVersion": 1,
-	"id": "hypixel-chat-tabs",
-	"version": "1.0.4",
-	"name": "Hypixel Chat Tabs",
-	"description": "Chat Tabs for Hypixel",
-	"authors": [
-		{"name": "YellowBirb", "contact": {
-			"discord": "yellowbirb"
-		}}
-	],
-	"contact": {
-		"sources": "https://github.com/YellowBirb/hypixel-chat-tabs"
-	},
-	"license": "CC-BY-NC-SA-4.0",
-	"icon": "icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"client": [
-			"yellowbirb.hypixelchattabs.HypixelChatTabsClient"
-		],
-		"modmenu": [
-    		"com.example.MyModMenuIntegration"
-  		]
-	},
-	"mixins": [
-		{
-			"config": "hypixel-chat-tabs.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "hypixel-chat-tabs",
+  "version": "1.1.4",
+  "name": "Hypixel Chat Tabs",
+  "description": "Adds chat tabs for Hypixel",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["yellowbirb.hypixelchattabs.HypixelChatTabsClient"],
+    "modmenu": ["yellowbirb.hypixelchattabs.MyModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21.10",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
 }
