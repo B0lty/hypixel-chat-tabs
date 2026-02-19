@@ -1,12 +1,15 @@
 {
-	"required": true,
-	"package": "yellowbirb.hypixelchattabs.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
+  "required": true,
+  "package": "yellowbirb.hypixelchattabs.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChatScreenMixin"
+  ],
+  "client": [
 		"ChatHudMixin",
 		"ChatScreenMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

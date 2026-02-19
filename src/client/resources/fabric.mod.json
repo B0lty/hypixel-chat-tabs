@@ -18,7 +18,10 @@
 	"entrypoints": {
 		"client": [
 			"yellowbirb.hypixelchattabs.HypixelChatTabsClient"
-		]
+		],
+		"modmenu": [
+    		"com.example.MyModMenuIntegration"
+  		]
 	},
 	"mixins": [
 		{

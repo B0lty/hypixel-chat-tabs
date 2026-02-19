@@ -2,6 +2,8 @@ package yellowbirb.hypixelchattabs;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.text.Text;
+import yellowbirb.hypixelchattabs.config.MyConfigManager;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +17,7 @@ public class HypixelChatTabsClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		LOGGER.info("Hypixel Chat Tabs is initializing :3");
+		MyConfigManager.load();
 	}
 
 	private static String removeFormatting(String string) {
