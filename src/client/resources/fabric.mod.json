@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "hypixel-chat-tabs",
-  "version": "1.1.4",
-  "name": "Hypixel Chat Tabs",
+  "id": "hypixel-chat-tabs-config",
+  "version": "1.1.6",
+  "name": "Hypixel Chat Tabs With Config",
   "description": "Adds chat tabs for Hypixel",
-  "authors": ["YourName"],
+  "authors": ["yellowbirb", "B0lt_Master"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {

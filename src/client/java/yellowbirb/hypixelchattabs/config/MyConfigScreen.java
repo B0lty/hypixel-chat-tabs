@@ -21,7 +21,7 @@ public class MyConfigScreen {
                 .setSaveConsumer(value -> MyConfigManager.CONFIG.enabled = value)
                 .build());
 
-        general.addEntry(entryBuilder.startIntSlider(Text.literal("Tab Radius"), MyConfigManager.CONFIG.radius, 0, 100)
+        general.addEntry(entryBuilder.startIntSlider(Text.literal("Button Offset"), MyConfigManager.CONFIG.radius, 0, 500)
                 .setSaveConsumer(value -> MyConfigManager.CONFIG.radius = value)
                 .build());
 
