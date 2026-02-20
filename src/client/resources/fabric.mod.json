@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "hypixel-chat-tabs-config",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "name": "Hypixel Chat Tabs With Config",
   "description": "Adds chat tabs for Hypixel",
   "authors": ["yellowbirb", "B0lt_Master"],
@@ -11,6 +11,12 @@
     "client": ["yellowbirb.hypixelchattabs.HypixelChatTabsClient"],
     "modmenu": ["yellowbirb.hypixelchattabs.MyModMenuIntegration"]
   },
+	"mixins": [
+		{
+			"config": "hypixel-chat-tabs.client.mixins.json",
+			"environment": "client"
+		}
+	],
   "depends": {
     "fabricloader": ">=0.14.0",
     "fabric": "*",
